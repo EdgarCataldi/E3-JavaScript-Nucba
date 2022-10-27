@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzas E3-EdgarCastaldi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7d9d9af152.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Buscador de Pizzas</h1>
+        <div class="form">
+            <input type="number" name="id-pizza" id="id-pizza" placeholder="Ingresa un ID" min="1" value="1">
+            <button onClick="renderizarPizza();">🍕</button>
+        </div>
+        <div class="container" id="container">
+            <div class="card">
+                <div class="datos">
+                    <img id="img-pizza" class="img" src="https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-tomate-albahaca-y-mozzarella-1080x671.jpg"alt="Pizzas">
+                    <h2 id="nombre-pizza">Mozzarella Napolitana</h2>
+                    <h3 id="precio-pizza">$500</h3>
+                    <p class="descripcion" id="descripcion-pizza">Ingredientes: Muzzarella,Tomate, Aceitunas, Oregano</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./pizzas.js"></script>
+</body>
+
+</html>
